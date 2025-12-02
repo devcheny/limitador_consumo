@@ -1,0 +1,7 @@
+DOMAIN = "limitador_consumo"
+CONF_POTENCIA = "potencia"
+CONF_SENSOR = "sensor_potencia"
+CONF_SWITCHES = "switches_limitados"
+CONF_INTERVALO_DESACTIVACION = "intervalo_desactivacion"
+CONF_INTERVALO_ACTIVACION = "intervalo_activacion"
+CONF_NOTIFICACIONES = "notificaciones_activadas"

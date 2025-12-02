@@ -1,0 +1,40 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "data": {
+          "potencia": "Contracted power (W)",
+          "sensor_potencia": "Total instantaneous consumption sensor",
+          "intervalo_desactivacion": "Deactivation interval (seconds)",
+          "intervalo_activacion": "Activation interval (seconds)",
+          "switches_limitados": "Sockets/Switches to limit",
+          "notificaciones_activadas": "Enable persistent notifications"
+        }
+      }
+    },
+    "error": {
+      "invalid_potencia": "Power must be greater than 0.",
+      "invalid_sensor": "Select a valid sensor.",
+      "invalid_switches": "Select at least one socket/switch to limit.",
+      "invalid_intervalo_desactivacion": "Deactivation interval must be greater than 0.",
+      "invalid_intervalo_activacion": "Activation interval must be greater than 0."
+    },
+    "abort": {
+      "single_instance_allowed": "Only one configuration is allowed for Limitador de Consumo."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "data": {
+          "potencia": "Contracted power (W)",
+          "sensor_potencia": "Total instantaneous consumption sensor",
+          "intervalo_desactivacion": "Deactivation interval (seconds)",
+          "intervalo_activacion": "Activation interval (seconds)",
+          "switches_limitados": "Sockets/Switches to limit",
+          "notificaciones_activadas": "Enable persistent notifications"
+        }
+      }
+    }
+  }
+}
