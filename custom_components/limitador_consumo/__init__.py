@@ -21,7 +21,7 @@ class LimitadorBloqueoSwitch(ToggleEntity, RestoreEntity):
         device_name = device_entity_id.replace(".", "_")
         self._attr_unique_id = f"limitador_bloqueo_{device_name}"
         self._attr_name = f"Limitador {device_entity_id}"
-        self._attr_icon = "mdi:lock"
+        self._attr_icon = "mdi:flash-auto"
         self._attr_is_on = False
         self._estado_personalizado = None  # Para climates: hvac_mode
         self.entity_id = f"{DOMAIN}.limitador_bloqueo_{device_name}"

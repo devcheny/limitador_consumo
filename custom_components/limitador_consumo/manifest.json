@@ -1,11 +1,12 @@
 {
   "domain": "limitador_consumo",
   "name": "Limitador de Consumo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "documentation": "https://github.com/devcheny/limitador_consumo",
   "issue_tracker": "https://github.com/devcheny/limitador_consumo/issues",
   "requirements": [],
   "codeowners": ["@devcheny"],
   "config_flow": true,
-  "iot_class": "local_polling"
+  "iot_class": "local_polling",
+  "integration_type": "device"
 }
