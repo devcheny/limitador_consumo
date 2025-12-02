@@ -1,5 +1,7 @@
 {
   "name": "Limitador de Consumo",
   "render_readme": true,
-  "homeassistant": "2023.1.0"
+  "homeassistant": "2023.1.0",
+  "filename": "limitador_consumo.zip",
+  "content_in_root": false
 }
