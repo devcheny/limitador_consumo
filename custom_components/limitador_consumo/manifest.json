@@ -1,7 +1,7 @@
 {
   "domain": "limitador_consumo",
   "name": "Limitador de Consumo",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "documentation": "https://github.com/devcheny/limitador_consumo",
   "issue_tracker": "https://github.com/devcheny/limitador_consumo/issues",
   "requirements": [],
