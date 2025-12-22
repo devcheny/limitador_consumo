@@ -139,7 +139,6 @@ class LimitadorConsumoV3ConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
 
 class LimitadorConsumoV3OptionsFlowHandler(config_entries.OptionsFlow):
     def __init__(self, config_entry):
-        self.config_entry = config_entry
         self.options_data = {}
 
     async def async_step_init(self, user_input=None):
